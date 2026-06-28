@@ -17,7 +17,7 @@ The fake cert is unmodified. So it can pass the validation.
 
 The real cert is under the fake cert.And We can put the image hash and image hdr hash at the beginning of the real cert.
 
-For new V6 devices, cert content is identified by bypass_mode 2.
+For new V6 devices, cert content is identified by bypass_mode 0
 
 In this mode, any object will be skipped except 0x30.
 
